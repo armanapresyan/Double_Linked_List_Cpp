@@ -72,7 +72,7 @@ void Doublelinkedlist::insert(int index, int value) {
 
 }
 
-void Doublelinkedlist::remove(int index){
+void Doublelinkedlist::remove(int index) {
     
     if(index == 0){
        Node* first = head;
