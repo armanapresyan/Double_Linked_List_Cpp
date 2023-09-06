@@ -18,7 +18,7 @@ public:
    int get_size();
    void printList();
    void printReverse();
-
+   void traverse(void (*ptr)(int val));
 private:
     struct Node{
          int val;

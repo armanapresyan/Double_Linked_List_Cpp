@@ -129,3 +129,10 @@ void Doublelinkedlist::printReverse() {
     }
 }
 
+void Doublelinkedlist::traverse(void (*ptr)(int val)){
+    while(head != nullptr){
+        ptr(head->val);
+        head = head->next;
+    }
+}
+
